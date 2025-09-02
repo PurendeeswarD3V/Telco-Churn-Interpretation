@@ -28,54 +28,56 @@ assignment-d3v/
 │
 │── requirements.txt                               # Python dependencies
 │── README.md                                      # Project documentation
-##  Features
-Data Preprocessing
-Handles categorical & numerical features using sklearn pipelines.
 
-Model Training
-Trains three ensemble models:
 
-XGBoost
+---
 
-CatBoost
+## ✨ Features
 
-LightGBM
+- **Data Preprocessing**  
+  Handles categorical & numerical features using `scikit-learn` pipelines.  
 
-Explainability with SHAP
+- **Model Training**  
+  Trains three ensemble models:  
+  - XGBoost  
+  - CatBoost  
+  - LightGBM  
 
-Global feature importance
+- **Explainability with SHAP**  
+  - Global feature importance  
+  - Local instance-level explanations  
+  - Interactive plots  
 
-Local instance-level explanations
+- **Visualization**  
+  - Precision-Recall curves  
+  - ROC curves  
+  - SHAP summary plots  
 
-Interactive plots
+---
 
-Visualization
-Precision-Recall curves, ROC curves, and SHAP summary plots.
+## ⚙️ Installation
 
-##  Installation
 Clone this repository:
 
-bash
-Copy code
+```bash
 git clone https://github.com/your-username/Telco-Churn-Interpretation.git
 cd Telco-Churn-Interpretation
-Create and activate a virtual environment (recommended):
 
-bash
-Copy code
+
+
 python -m venv venv
 source venv/bin/activate   # On Linux/Mac
 venv\Scripts\activate      # On Windows
+
 Install dependencies:
 
-bash
-Copy code
+
 pip install -r requirements.txt
+
 ## Usage
 Run the Jupyter notebook for training and interpretation:
 
-bash
-Copy code
+
 jupyter notebook notebooks/Telco.ipynb
 After execution:
 
