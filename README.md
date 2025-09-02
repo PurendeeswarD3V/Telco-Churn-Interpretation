@@ -7,30 +7,28 @@ This project demonstrates model training, evaluation, and explainability with **
 
 ##  Repository Structure
 
-```bash
-assignment-d3v/
-│── data/
-│   └── WA_Fn_UseC_-Telo-Customer-Churn.csv        # Raw dataset
-│
-│── models/
-│   ├── cat_model.joblib                           # Trained CatBoost model
-│   ├── lgbm_model.joblib                          # Trained LightGBM model
-│   ├── xgb_model.joblib                           # Trained XGBoost model
-│   └── preprocessor.joblib                        # Preprocessing pipeline
-│
-│── outputs/
-│   ├── catboost_shap_values.csv                   # SHAP values for CatBoost
-│   ├── xgb_shap_values.csv                        # SHAP values for XGBoost
-│   └── plots/                                     # Generated plots & charts
-│
-│── notebooks/
-│   └── Telco.ipynb                                # Main Jupyter notebook
-│
-│── requirements.txt                               # Python dependencies
-│── README.md                                      # Project documentation
 
-
----
+    assignment-d3v/
+    │── data/
+    │   └── WA_Fn_UseC_-Telo-Customer-Churn.csv        # Raw dataset
+    │
+    │── models/
+    │   ├── cat_model.joblib                           # Trained CatBoost model
+    │   ├── lgbm_model.joblib                          # Trained LightGBM model
+    │   ├── xgb_model.joblib                           # Trained XGBoost model
+    │   └── preprocessor.joblib                        # Preprocessing pipeline
+    │
+    │── outputs/
+    │   ├── catboost_shap_values.csv                   # SHAP values for CatBoost
+    │   ├── xgb_shap_values.csv                        # SHAP values for XGBoost
+    │   └── plots/                                     # Generated plots & charts
+    │
+    │── notebooks/
+    │   └── Telco.ipynb                                # Main Jupyter notebook
+    │
+    │── requirements.txt                               # Python dependencies
+    │── README.md                                      # Project documentation
+  ---
 
 ## ✨ Features
 
@@ -59,7 +57,7 @@ assignment-d3v/
 
 Clone this repository:
 
-```bash
+
 git clone https://github.com/your-username/Telco-Churn-Interpretation.git
 cd Telco-Churn-Interpretation
 
